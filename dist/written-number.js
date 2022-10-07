@@ -201,6 +201,513 @@ module.exports={
   }
 },{}],3:[function(require,module,exports){
 module.exports={
+  "useLongScale": true,
+  "baseSeparator": "",
+  "unitSeparator": "",
+  "joinSeparator": true,
+  "base": {
+    "1": "erster",
+    "2": "zweiter",
+    "3": "dritter",
+    "4": "vierter",
+    "5": "fünfter",
+    "6": "sechster",
+    "7": "siebter",
+    "8": "achter",
+    "9": "neunter",
+    "10": "zehnter",
+    "11": "elfter",
+    "12": "zwölfter",
+    "13": "dreizehnter",
+    "14": "vierzehnter",
+    "15": "fünfzehnter",
+    "16": "sechzehnter",
+    "17": "siebzehnter",
+    "18": "achtzehnter",
+    "19": "neunzehnter",
+    "20": "zwanzigster",
+    "21": "einundzwanzigster",
+    "22": "zweiundzwanzigster",
+    "23": "dreiundzwanzigster",
+    "24": "vierundzwanzigster",
+    "25": "fünfundzwanzigster",
+    "26": "sechsundzwanzigster",
+    "27": "siebenundzwanzigster",
+    "28": "achtundzwanzigster",
+    "29": "neunundzwanzigster",
+    "30": "dreißigster",
+    "31": "einunddreißigster",
+    "32": "zweiunddreißigster",
+    "33": "dreiunddreißigster",
+    "34": "vierunddreißigster",
+    "35": "fünfunddreißigster",
+    "36": "sechsunddreißigster",
+    "37": "siebenunddreißigster",
+    "38": "achtunddreißigster",
+    "39": "neununddreißigster",
+    "40": "vierzigster",
+    "41": "einundvierzigster",
+    "42": "zweiundvierzigster",
+    "43": "dreiundvierzigster",
+    "44": "vierundvierzigster",
+    "45": "fünfundvierzigster",
+    "46": "sechsundvierzigster",
+    "47": "siebenundvierzigster",
+    "48": "achtundvierzigster",
+    "49": "neunundvierzigster",
+    "50": "fünfzigster",
+    "51": "einundfünfzigster",
+    "52": "zweiundfünfzigster",
+    "53": "dreiundfünfzigster",
+    "54": "vierundfünfzigster",
+    "55": "fünfundfünfzigster",
+    "56": "sechsundfünfzigster",
+    "57": "siebenundfünfzigster",
+    "58": "achtundfünfzigster",
+    "59": "neunundfünfzigster",
+    "60": "sechzigster",
+    "61": "einundsechzigster",
+    "62": "zweiundsechzigster",
+    "63": "dreiundsechzigster",
+    "64": "vierundsechzigster",
+    "65": "fünfundsechzigster",
+    "66": "sechsundsechzigster",
+    "67": "siebenundsechzigster",
+    "68": "achtundsechzigster",
+    "69": "neunundsechzigster",
+    "70": "siebzigster",
+    "71": "einundsiebzigster",
+    "72": "zweiundsiebzigster",
+    "73": "dreiundsiebzigster",
+    "74": "vierundsiebzigster",
+    "75": "fünfundsiebzigster",
+    "76": "sechsundsiebzigster",
+    "77": "siebenundsiebzigster",
+    "78": "achtundsiebzigster",
+    "79": "neunundsiebzigster",
+    "80": "achtzigster",
+    "81": "einundachtzigster",
+    "82": "zweiundachtzigster",
+    "83": "dreiundachtzigster",
+    "84": "vierundachtzigster",
+    "85": "fünfundachtzigster",
+    "86": "sechsundachtzigster",
+    "87": "siebenundachtzigster",
+    "88": "achtundachtzigster",
+    "89": "neunundachtzigster",
+    "90": "neunzigster",
+    "91": "einundneunzigster",
+    "92": "zweiundneunzigster",
+    "93": "dreiundneunzigster",
+    "94": "vierundneunzigster",
+    "95": "fünfundneunzigster",
+    "96": "sechsundneunzigster",
+    "97": "siebenundneunzigster",
+    "98": "achtundneunzigster",
+    "99": "neunundneunzigster",
+    "100": "hundertster",
+    "200": "zweihundertster",
+    "300": "dreihundertster",
+    "400": "vierhundertster",
+    "500": "fünfhundertster",
+    "600": "sechshundertster",
+    "700": "siebenhundertster",
+    "800": "achthundertster",
+    "900": "neunhundertster",
+    "1000": "tausendster"
+  },
+  "unitExceptions": {},
+  "alternativeBase": {
+    "feminine": {
+      "1": "erste",
+      "2": "zweite",
+      "3": "dritte",
+      "4": "vierte",
+      "5": "fünfte",
+      "6": "sechste",
+      "7": "siebte",
+      "8": "achte",
+      "9": "neunte",
+      "10": "zehnte",
+      "11": "elfte",
+      "12": "zwölfte",
+      "13": "dreizehnte",
+      "14": "vierzehnte",
+      "15": "fünfzehnte",
+      "16": "sechzehnte",
+      "17": "siebzehnte",
+      "18": "achtzehnte",
+      "19": "neunzehnte",
+      "20": "zwanzigste",
+      "21": "einundzwanzigste",
+      "22": "zweiundzwanzigste",
+      "23": "dreiundzwanzigste",
+      "24": "vierundzwanzigste",
+      "25": "fünfundzwanzigste",
+      "26": "sechsundzwanzigste",
+      "27": "siebenundzwanzigste",
+      "28": "achtundzwanzigste",
+      "29": "neunundzwanzigste",
+      "30": "dreißigste",
+      "31": "einunddreißigste",
+      "32": "zweiunddreißigste",
+      "33": "dreiunddreißigste",
+      "34": "vierunddreißigste",
+      "35": "fünfunddreißigste",
+      "36": "sechsunddreißigste",
+      "37": "siebenunddreißigste",
+      "38": "achtunddreißigste",
+      "39": "neununddreißigste",
+      "40": "vierzigste",
+      "41": "einundvierzigste",
+      "42": "zweiundvierzigste",
+      "43": "dreiundvierzigste",
+      "44": "vierundvierzigste",
+      "45": "fünfundvierzigste",
+      "46": "sechsundvierzigste",
+      "47": "siebenundvierzigste",
+      "48": "achtundvierzigste",
+      "49": "neunundvierzigste",
+      "50": "fünfzigste",
+      "51": "einundfünfzigste",
+      "52": "zweiundfünfzigste",
+      "53": "dreiundfünfzigste",
+      "54": "vierundfünfzigste",
+      "55": "fünfundfünfzigste",
+      "56": "sechsundfünfzigste",
+      "57": "siebenundfünfzigste",
+      "58": "achtundfünfzigste",
+      "59": "neunundfünfzigste",
+      "60": "sechzigste",
+      "61": "einundsechzigste",
+      "62": "zweiundsechzigste",
+      "63": "dreiundsechzigste",
+      "64": "vierundsechzigste",
+      "65": "fünfundsechzigste",
+      "66": "sechsundsechzigste",
+      "67": "siebenundsechzigste",
+      "68": "achtundsechzigste",
+      "69": "neunundsechzigste",
+      "70": "siebzigste",
+      "71": "einundsiebzigste",
+      "72": "zweiundsiebzigste",
+      "73": "dreiundsiebzigste",
+      "74": "vierundsiebzigste",
+      "75": "fünfundsiebzigste",
+      "76": "sechsundsiebzigste",
+      "77": "siebenundsiebzigste",
+      "78": "achtundsiebzigste",
+      "79": "neunundsiebzigste",
+      "80": "achtzigste",
+      "81": "einundachtzigste",
+      "82": "zweiundachtzigste",
+      "83": "dreiundachtzigste",
+      "84": "vierundachtzigste",
+      "85": "fünfundachtzigste",
+      "86": "sechsundachtzigste",
+      "87": "siebenundachtzigste",
+      "88": "achtundachtzigste",
+      "89": "neunundachtzigste",
+      "90": "neunzigste",
+      "91": "einundneunzigste",
+      "92": "zweiundneunzigste",
+      "93": "dreiundneunzigste",
+      "94": "vierundneunzigste",
+      "95": "fünfundneunzigste",
+      "96": "sechsundneunzigste",
+      "97": "siebenundneunzigste",
+      "98": "achtundneunzigste",
+      "99": "neunundneunzigste",
+      "100": "hundertste",
+      "200": "zweihundertste",
+      "300": "dreihundertste",
+      "400": "vierhundertste",
+      "500": "fünfhundertste",
+      "600": "sechshundertste",
+      "700": "siebenhundertste",
+      "800": "achthundertste",
+      "900": "neunhundertste",
+      "1000": "tausendste"
+    },
+
+    "neuter": {
+      "1": "erstes",
+      "2": "zweites",
+      "3": "drittes",
+      "4": "viertes",
+      "5": "fünftes",
+      "6": "sechstes",
+      "7": "siebtes",
+      "8": "achtes",
+      "9": "neuntes",
+      "10": "zehntes",
+      "11": "elftes",
+      "12": "zwölftes",
+      "13": "dreizehntes",
+      "14": "vierzehntes",
+      "15": "fünfzehntes",
+      "16": "sechzehntes",
+      "17": "siebzehntes",
+      "18": "achzehntes",
+      "19": "neunzehntes",
+      "20": "zwanzigstes",
+      "21": "einundzwanzigstes",
+      "22": "zweiundzwanzigstes",
+      "23": "dreiundzwanzigstes",
+      "24": "vierundzwanzigstes",
+      "25": "fünfundzwanzigstes",
+      "26": "sechsundzwanzigstes",
+      "27": "siebenundzwanzigstes",
+      "28": "achtundzwanzigstes",
+      "29": "neunundzwanzigstes",
+      "30": "dreißigstes",
+      "31": "einunddreißigstes",
+      "32": "zweiunddreißigstes",
+      "33": "dreiunddreißigstes",
+      "34": "vierunddreißigstes",
+      "35": "fünfunddreißigstes",
+      "36": "sechsunddreißigstes",
+      "37": "siebenunddreißigstes",
+      "38": "achtunddreißigstes",
+      "39": "neununddreißigstes",
+      "40": "vierzigstes",
+      "41": "einundvierzigstes",
+      "42": "zweiundvierzigstes",
+      "43": "dreiundvierzigstes",
+      "44": "vierundvierzigstes",
+      "45": "fünfundvierzigstes",
+      "46": "sechsundvierzigstes",
+      "47": "siebenundvierzigstes",
+      "48": "achtundvierzigstes",
+      "49": "neunundvierzigstes",
+      "50": "fünfzigstes",
+      "51": "einundfünfzigstes",
+      "52": "zweiundfünfzigstes",
+      "53": "dreiundfünfzigstes",
+      "54": "vierundfünfzigstes",
+      "55": "fünfundfünfzigstes",
+      "56": "sechsundfünfzigstes",
+      "57": "siebenundfünfzigstes",
+      "58": "achtundfünfzigstes",
+      "59": "neunundfünfzigstes",
+      "60": "sechzigstes",
+      "61": "einundsechzigstes",
+      "62": "zweiundsechzigstes",
+      "63": "dreiundsechzigstes",
+      "64": "vierundsechzigstes",
+      "65": "fünfundsechzigstes",
+      "66": "sechsundsechzigstes",
+      "67": "siebenundsechzigstes",
+      "68": "achtundsechzigstes",
+      "69": "neunundsechzigstes",
+      "70": "siebzigstes",
+      "71": "einundsiebzigstes",
+      "72": "zweiundsiebzigstes",
+      "73": "dreiundsiebzigstes",
+      "74": "vierundsiebzigstes",
+      "75": "fünfundsiebzigstes",
+      "76": "sechsundsiebzigstes",
+      "77": "siebenundsiebzigstes",
+      "78": "achtundsiebzigstes",
+      "79": "neunundsiebzigstes",
+      "80": "achtzigstes",
+      "81": "einundachtzigstes",
+      "82": "zweiundachtzigstes",
+      "83": "dreiundachtzigstes",
+      "84": "vierundachtzigstes",
+      "85": "fünfundachtzigstes",
+      "86": "sechsundachtzigstes",
+      "87": "siebenundachtzigstes",
+      "88": "achtundachtzigstes",
+      "89": "neunundachtzigstes",
+      "90": "neunzigstes",
+      "91": "einundneunzigstes",
+      "92": "zweiundneunzigstes",
+      "93": "dreiundneunzigstes",
+      "94": "vierundneunzigstes",
+      "95": "fünfundneunzigstes",
+      "96": "sechsundneunzigstes",
+      "97": "siebenundneunzigstes",
+      "98": "achtundneunzigstes",
+      "99": "neunundneunzigstes",
+      "100": "hundertstes",
+      "200": "zweihundertstes",
+      "300": "dreihundertstes",
+      "400": "vierhundertstes",
+      "500": "fünfhundertstes",
+      "600": "sechshundertstes",
+      "700": "siebenhundertstes",
+      "800": "achthundertstes",
+      "900": "neunhundertstes",
+      "1000": "tausendstes"
+    }
+  },
+  "units": [
+    "hundertster",
+    "tausendster",
+    "millionster"
+  ]
+}
+
+},{}],4:[function(require,module,exports){
+module.exports={
+    "useLongScale": true,
+    "baseSeparator": "",
+    "unitSeparator": "",
+    "joinSeparator": true,
+    "base": {
+      "0": "null",
+      "1": "eins",
+      "2": "zwei",
+      "3": "drei",
+      "4": "vier",
+      "5": "fünf",
+      "6": "sechs",
+      "7": "sieben",
+      "8": "acht",
+      "9": "neun",
+      "10": "zehn",
+      "11": "elf",
+      "12": "zwölf",
+      "13": "dreizehn",
+      "14": "vierzehn",
+      "15": "fünfzehn",
+      "16": "sechzehn",
+      "17": "siebzehn",
+      "18": "achtzehn",
+      "19": "neunzehn",
+      "20": "zwanzig",
+      "21": "einundzwanzig",
+      "22": "zweiundzwanzig",
+      "23": "dreiundzwanzig",
+      "24": "vierundzwanzig",
+      "25": "fünfundzwanzig",
+      "26": "sechsundzwanzig",
+      "27": "siebenundzwanzig",
+      "28": "achtundzwanzig",
+      "29": "neunundzwanzig",
+      "30": "dreißig",
+      "31": "einunddreißig",
+      "32": "zweiunddreißig",
+      "33": "dreiunddreißig",
+      "34": "vierunddreißig",
+      "35": "fünfunddreißig",
+      "36": "sechsunddreißig",
+      "37": "siebenunddreißig",
+      "38": "achtunddreißig",
+      "39": "neununddreißig",
+      "40": "vierzig",
+      "41": "einundvierzig",
+      "42": "zweiundvierzig",
+      "43": "dreiundvierzig",
+      "44": "vierundvierzig",
+      "45": "fünfundvierzig",
+      "46": "sechsundvierzig",
+      "47": "siebenundvierzig",
+      "48": "achtundvierzig",
+      "49": "neunundvierzig",
+      "50": "fünfzig",
+      "51": "einundfünfzig",
+      "52": "zweiundfünfzig",
+      "53": "dreiundfünfzig",
+      "54": "vierundfünfzig",
+      "55": "fünfundfünfzig",
+      "56": "sechsundfünfzig",
+      "57": "siebenundfünfzig",
+      "58": "achtundfünfzig",
+      "59": "neunundfünfzig",
+      "60": "sechzig",
+      "61": "einundsechzig",
+      "62": "zweiundsechzig",
+      "63": "dreiundsechzig",
+      "64": "vierundsechzig",
+      "65": "fünfundsechzig",
+      "66": "sechsundsechzig",
+      "67": "siebenundsechzig",
+      "68": "achtundsechzig",
+      "69": "neunundsechzig",
+      "70": "siebzig",
+      "71": "einundsiebzig",
+      "72": "zweiundsiebzig",
+      "73": "dreiundsiebzig",
+      "74": "vierundsiebzig",
+      "75": "fünfundsiebzig",
+      "76": "sechsundsiebzig",
+      "77": "siebenundsiebzig",
+      "78": "achtundsiebzig",
+      "79": "neunundsiebzig",
+      "80": "achtzig",
+      "81": "einundachtzig",
+      "82": "zweiundachtzig",
+      "83": "dreiundachtzig",
+      "84": "vierundachtzig",
+      "85": "fünfundachtzig",
+      "86": "sechsundachtzig",
+      "87": "siebenundachtzig",
+      "88": "achtundachtzig",
+      "89": "neunundachtzig",
+      "90": "neunzig",
+      "91": "einundneunzig",
+      "92": "zweiundneunzig",
+      "93": "dreiundneunzig",
+      "94": "vierundneunzig",
+      "95": "fünfundneunzig",
+      "96": "sechsundneunzig",
+      "97": "siebenundneunzig",
+      "98": "achtundneunzig",
+      "99": "neunundneunzig",
+      "100": "einhundert",
+      "200": "zweihundert",
+      "300": "dreihundert",
+      "1000": "eintausend"
+    },
+    "alternativeBase": {
+      "feminine": {
+        "1": "eine"
+      },
+      "masculine": {
+        "1": "ein",
+        "1000": "eintausend",
+        "2000": "zweitausend",
+        "3000": "dreitausend",
+        "4000": "viertausend",
+        "5000": "fünftausend",
+        "6000": "sechstausend",
+        "7000": "siebentausend",
+        "8000": "achttausend",
+        "9000": "neuntausend"
+      },
+      "neuter": {
+        "1": "ein"
+      }
+    },
+    "units": [
+      {
+        "singular": "einhundert",
+        "useBaseInstead": true,
+        "useBaseException": [1],
+        "useBaseExceptionWhenNoTrailingNumbers": true
+      },
+      {
+        "singular": "tausend",
+        "useAlternativeBase": "masculine"
+      },
+      {
+        "singular": "eine Million-",
+        "plural": " Millionen-",
+        "avoidPrefixException": [1]
+      },
+      {
+        "singular": "eine Millarde-",
+        "plural": "Millarden-",
+        "avoidPrefixException": [1]
+      }
+    ],
+      "unitExceptions": {}
+  }
+  
+},{}],5:[function(require,module,exports){
+module.exports={
   "useLongScale": false,
   "baseSeparator": "-",
   "unitSeparator": "and ",
@@ -242,7 +749,7 @@ module.exports={
   },
   "unitExceptions": []
 }
-},{}],4:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": "-",
@@ -298,7 +805,7 @@ module.exports={
   ],
   "unitExceptions": []
 }
-},{}],5:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": " ",
@@ -361,7 +868,7 @@ module.exports={
   "unitExceptions": []
 }
 
-},{}],6:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 module.exports={
   "useLongScale": true,
   "baseSeparator": " ",
@@ -476,7 +983,7 @@ module.exports={
   ]
 }
 
-},{}],7:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 module.exports={
   "useLongScale": true,
   "baseSeparator": " y ",
@@ -637,7 +1144,114 @@ module.exports={
   ]
 }
 
-},{}],8:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
+module.exports={
+  "useLongScale": true,
+  "baseSeparator": "-",
+  "unitSeparator": "",
+  "base": {
+    "1": "premier",
+    "2": "deuxième",
+    "3": "troisième",
+    "4": "quatrième",
+    "5": "cinquième",
+    "6": "sixième",
+    "7": "septième",
+    "8": "huitième",
+    "9": "neuvième",
+    "10": "dixième",
+    "11": "onzième",
+    "12": "douzième",
+    "13": "treizième",
+    "14": "quatorzième",
+    "15": "quinzième",
+    "16": "seizième",
+    "17": "dix-septième",
+    "18": "dix-huitième",
+    "19": "dix-neuvième",
+    "20": "vingtième",
+    "21": "vingt et unième",
+    "22": "vingt-deuxième",
+    "23": "vingt-troisième",
+    "24": "vingt-quatrième",
+    "25": "vingt-cinquième",
+    "26": "vingt-sixième",
+    "27": "vingt-septième",
+    "28": "vingt-huitième",
+    "29": "vingt-neuvième",
+    "30": "trente",
+    "31": "trente et unième",
+    "40": "quarante",
+    "41": "quarante et unième",
+    "50": "cinquante",
+    "51": "cinquante et unième",
+    "60": "soixante",
+    "61": "soixante et unième",
+    "70": "soixante",
+    "71": "soixante et onzième",
+    "72": "soixante-douzième",
+    "73": "soixante-treizième",
+    "74": "soixante-quatorzième",
+    "75": "soixante-quinzième",
+    "76": "soixante-seizième",
+    "77": "soixante-dix-septième",
+    "78": "soixante-dix-huitième",
+    "79": "soixante-dix-neuvième",
+    "80": "quatre-vingt",
+    "81": "quatre-vingt-unième",
+    "87": "quatre-vingt-septième",
+    "90": "quatre-vingt",
+    "91": "quatre-vingt-onzième",
+    "92": "quatre-vingt-douzième",
+    "93": "quatre-vingt-treizième",
+    "94": "quatre-vingt-quatorzième",
+    "95": "quatre-vingt-quinzième",
+    "96": "quatre-vingt-seizième",
+    "97": "quatre-vingt-dix-septième",
+    "98": "quatre-vingt-dix-huitième",
+    "99": "quatre-vingt-dix-neuvième",
+    "100": "centième",
+    "200": "deux centième",
+    "300": "trois centième",
+    "400": "quatre centième",
+    "500": "cinq centième",
+    "600": "six centième",
+    "700": "sept centième",
+    "800": "huit centième",
+    "900": "neuf centième",
+    "1000": "millième",
+    "2000": "deux millième",
+    "3000": "trois millième",
+    "4000": "quatre millième",
+    "5000": "cinq millième",
+    "6000": "six millième",
+    "7000": "sept millième",
+    "8000": "huit millième",
+    "9000": "neuf millième"
+  },
+  "unitExceptions": {
+    "20": "vingtième",
+    "30": "trentième",
+    "40": "quarantième",
+    "50": "cinquantième",
+    "60": "soixantième",
+    "70": "soixante-dixième",
+    "80": "quatre-vingtième",
+    "90": "quatre-vingt-dixième"
+  },
+  "alternativeBase": {
+    "feminine": {
+      "1": "première"
+    }
+  },
+  "units": [
+    "centième",
+    "millième",
+    "millionième"
+  ]
+}
+
+},{}],11:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": "-",
@@ -669,8 +1283,13 @@ module.exports={
     "50": "cinquante",
     "60": "soixante",
     "70": "soixante-dix",
-    "80": "quatre-vingt",
+    "80": "quatre-vingts",
     "90": "quatre-vingt-dix"
+  },
+  "alternativeBase": {
+    "feminine": {
+      "1": "une"
+    }
   },
   "units" : [
     {
@@ -772,7 +1391,7 @@ module.exports={
   }
 }
 
-},{}],9:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 module.exports={
   "useLongScale": true,
   "baseSeparator": "",
@@ -898,7 +1517,7 @@ module.exports={
   ]
 }
 
-},{}],10:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": " ",
@@ -952,7 +1571,7 @@ module.exports={
   "unitExceptions": []
 }
 
-},{}],11:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 module.exports={
     "useLongScale": true,
     "baseSeparator": " ",
@@ -1200,7 +1819,7 @@ module.exports={
     ]
   }
   
-},{}],12:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 module.exports={
     "useLongScale": false,
     "baseSeparator": "",
@@ -1332,7 +1951,7 @@ module.exports={
         }
     ]
 }
-},{}],13:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 module.exports={
   "useLongScale": true,
   "baseSeparator": " e ",
@@ -1439,7 +2058,7 @@ module.exports={
   ]
 }
 
-},{}],14:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 module.exports={
   "useLongScale": true,
   "baseSeparator": " ",
@@ -1550,7 +2169,7 @@ module.exports={
   ]
 }
 
-},{}],15:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": " e ",
@@ -1681,7 +2300,7 @@ module.exports={
   ]
 }
 
-},{}],16:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 module.exports={
     "useLongScale": false,
     "baseSeparator": " ",
@@ -1868,7 +2487,7 @@ module.exports={
     ],
     "unitExceptions": []
 }
-},{}],17:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": " ",
@@ -1921,7 +2540,7 @@ module.exports={
   ],
   "unitExceptions": []
 }
-},{}],18:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": " ",
@@ -2109,7 +2728,7 @@ module.exports={
   "unitExceptions": []
 }
 
-},{}],19:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 module.exports={
   "useLongScale": false,
   "baseSeparator": " ",
@@ -2160,12 +2779,12 @@ module.exports={
   ],
   "unitExceptions": []
 }
-},{}],20:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 "use strict";
 exports = module.exports = writtenNumber;
 var util = require("./util");
 
-var languages = ["en", "es", "ar", "az", "pt", "fr", "eo", "it", "vi", "tr", "uk", "ru", "id"];
+var languages = ["en", "es", "ar", "az", "pt", "fr", "eo", "it", "vi", "tr", "uk", "ru", "id", 'de'];
 var i18n = {
   en: require("./i18n/en.json"),
   es: require("./i18n/es.json"),
@@ -2183,10 +2802,13 @@ var i18n = {
   uk: require("./i18n/uk.json"),
   ru: require("./i18n/ru.json"),
   id: require("./i18n/id.json"),
+  de: require("./i18n/de.json"),
   ordinals: {
     es: require("./i18n/es-ordinal.json"),
     pt: require("./i18n/pt-ordinal.json"),
     it: require("./i18n/it-ordinal.json"),
+    fr: require("./i18n/fr-ordinal.json"),
+    de: require("./i18n/de-ordinal.json"),
   }
 };
 exports.i18n = i18n;
@@ -2354,7 +2976,11 @@ function writtenNumber(n, options) {
         )
       );
     n -= r * scale[i];
-    ret.push(number + " " + str);
+    if (language.joinSeparator) {
+      ret.push(number.replace(/ /g, '') + "" + str);
+    } else {
+      ret.push(number + " " + str);
+    }
   }
 
   var firstSignificantN = firstSignificant * Math.floor(n / firstSignificant);
@@ -2377,7 +3003,12 @@ function writtenNumber(n, options) {
       ret[j] = language.allSeparator + ret[j];
     }
   }
-  var result = ret.reverse().join(" ");
+  var result;
+  if (language.joinSeparator) {
+   return result = ret.reverse().join("").replace(/-/g, ' ');
+  }
+  
+  result = ret.reverse().join(" ");
   return result;
 }
 
@@ -2392,7 +3023,7 @@ function handleSmallerThan100(n, language, unit, baseCardinals, alternativeBaseC
   return alternativeBaseCardinals[dec] || baseCardinals[dec];
 }
 
-},{"./i18n/ar.json":1,"./i18n/az.json":2,"./i18n/en-indian.json":3,"./i18n/en.json":4,"./i18n/eo.json":5,"./i18n/es-ordinal.json":6,"./i18n/es.json":7,"./i18n/fr.json":8,"./i18n/hu.json":9,"./i18n/id.json":10,"./i18n/it-ordinal.json":11,"./i18n/it.json":12,"./i18n/pt-PT.json":13,"./i18n/pt-ordinal.json":14,"./i18n/pt.json":15,"./i18n/ru.json":16,"./i18n/tr.json":17,"./i18n/uk.json":18,"./i18n/vi.json":19,"./util":21}],21:[function(require,module,exports){
+},{"./i18n/ar.json":1,"./i18n/az.json":2,"./i18n/de-ordinal.json":3,"./i18n/de.json":4,"./i18n/en-indian.json":5,"./i18n/en.json":6,"./i18n/eo.json":7,"./i18n/es-ordinal.json":8,"./i18n/es.json":9,"./i18n/fr-ordinal.json":10,"./i18n/fr.json":11,"./i18n/hu.json":12,"./i18n/id.json":13,"./i18n/it-ordinal.json":14,"./i18n/it.json":15,"./i18n/pt-PT.json":16,"./i18n/pt-ordinal.json":17,"./i18n/pt.json":18,"./i18n/ru.json":19,"./i18n/tr.json":20,"./i18n/uk.json":21,"./i18n/vi.json":22,"./util":24}],24:[function(require,module,exports){
 "use strict";
 /**
  * Merges a set of default keys with a target object
@@ -2415,5 +3046,5 @@ function defaults(target, defs) {
 }
 exports.defaults = defaults;
 
-},{}]},{},[20])(20)
+},{}]},{},[23])(23)
 });
